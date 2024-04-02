@@ -26,14 +26,15 @@ vi grafana.repo
 Step 3: Put below content in grafana.repo with i and save it with :wq!.
 
 [grafana]
-name=grafana
-baseurl=https://packages.grafana.com/oss/rpm
-repo_gpgcheck=1
-enabled=1
-gpgcheck=1
-gpgkey=https://packages.grafana.com/gpg.key
-sslverify=1
-sslcacert=/etc/pki/tls/certs/ca-bundle.crt 
+
+    name=grafana
+    baseurl=https://packages.grafana.com/oss/rpm
+    repo_gpgcheck=1
+    enabled=1
+    gpgcheck=1
+    gpgkey=https://packages.grafana.com/gpg.key
+    sslverify=1
+    sslcacert=/etc/pki/tls/certs/ca-bundle.crt 
 
 Step 4: Once done with the above steps. It's time to install grafana now:
 
